@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: local
+  data:
+    mongodb:
+      repositories:
+        type: reactive
+      database: mongodemo
+#      host: localhost
+#      port: 27017
+#      username:
+#      password:
