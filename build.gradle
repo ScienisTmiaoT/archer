@@ -23,6 +23,7 @@ repositories {
     mavenCentral()
     maven { url 'https://repo.spring.io/milestone' }
     maven { url "https://repo.spring.io/snapshot" }
+    jcenter()
 }
 
 ext {
@@ -58,6 +59,7 @@ dependencies {
 //    testImplementation 'org.springframework.amqp:spring-rabbit-test'
 //    testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
 //    testImplementation 'org.springframework.security:spring-security-test'
+    testCompile "org.mockito:mockito-core:2.+"
 }
 
 dependencyManagement {
